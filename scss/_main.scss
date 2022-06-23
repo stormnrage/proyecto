@@ -1,0 +1,52 @@
+main{
+    div{              
+        h2{
+            a{
+                background-color: rgb(77, 76, 125);
+                color: rgb(233, 213, 218);                
+            }
+            a:hover{
+                color: rgb(130, 115, 151);
+            }
+        }
+        h4{
+            a{
+                color: rgb(130, 115, 151);
+            }
+            a:hover{
+                color: rgb(77, 76, 125);                         
+            } 
+        }
+        p{
+            background-color: rgb(54, 48, 98);
+            color: rgb(233, 213, 218);
+            padding: 10px ;
+            width: 450px;
+            border: rgb(130, 115, 151) 3px solid;
+            a{
+                padding: 10px 30px;
+                text-decoration: none;
+                list-style: none;
+                color: rgb(233, 213, 218);   
+            }
+            a:hover{
+                color: rgb(130, 115, 151);                         
+            }  
+        }
+        form{
+            padding: 10px;
+        }
+        div{
+            h2{
+                a{
+                    text-decoration: none;
+                    list-style: none;
+                    color: rgb(233, 213, 218);   
+                }
+                a:hover{
+                    color: rgb(130, 115, 151);                         
+                } 
+            }            
+        }
+    }
+}

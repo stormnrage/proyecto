@@ -1,0 +1,23 @@
+header{
+    background-color: rgb(54, 48, 98);
+    nav{
+        div{        
+            ul{
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                li{
+                    a{
+                        padding: 10px 30px;                        
+                        text-decoration: none;
+                        list-style: none;
+                        color: rgb(233, 213, 218);                         
+                    }
+                    a:hover{
+                        color: rgb(130, 115, 151);                         
+                    }
+                } 
+            }
+        }
+    }
+}

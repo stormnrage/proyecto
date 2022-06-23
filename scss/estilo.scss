@@ -1,0 +1,23 @@
+@import "header";
+@import "body";
+@import "main";
+@import "footer";
+
+@media (max-width: 400px){
+    #logo{
+        width: 50px;
+        height: 50px;
+    }
+    .productos{
+        flex-direction: column;        
+    }
+    #categoriaimg{
+        width: 200px;
+        height: 200px;
+    }
+    #categorias{
+        width: 90%;
+        text-align: justify;
+    }
+    
+}
