@@ -1,17 +1,20 @@
+$coloruno: rgb(130, 115, 151);
+$colordos: rgb(233, 213, 218);
+
 main{
-    div{              
+    div{                      
         h2{
             a{
                 background-color: rgb(77, 76, 125);
-                color: rgb(233, 213, 218);                
+                color: $colordos;                
             }
             a:hover{
-                color: rgb(130, 115, 151);
+                color: $coloruno;
             }
         }
         h4{
             a{
-                color: rgb(130, 115, 151);
+                color: $coloruno;
             }
             a:hover{
                 color: rgb(77, 76, 125);                         
@@ -19,18 +22,18 @@ main{
         }
         p{
             background-color: rgb(54, 48, 98);
-            color: rgb(233, 213, 218);
+            color: $colordos;
             padding: 10px ;
             width: 450px;
-            border: rgb(130, 115, 151) 3px solid;
+            border: $coloruno 3px solid;
             a{
                 padding: 10px 30px;
                 text-decoration: none;
                 list-style: none;
-                color: rgb(233, 213, 218);   
+                color: $colordos;   
             }
             a:hover{
-                color: rgb(130, 115, 151);                         
+                color: $coloruno;                         
             }  
         }
         form{
@@ -41,12 +44,24 @@ main{
                 a{
                     text-decoration: none;
                     list-style: none;
-                    color: rgb(233, 213, 218);   
+                    color: $colordos;   
                 }
                 a:hover{
-                    color: rgb(130, 115, 151);                         
+                    color: $coloruno;                         
                 } 
-            }            
+            } 
+            div{
+                h4{
+                    
+                    background-color: rgb(54, 48, 98);
+                    color: $colordos;
+                    padding: 10px ;                    
+                    border: $coloruno 3px solid;
+                    width: 300px;
+                    margin-left: auto;
+                    margin-right: auto;                    
+                }
+            }        
         }
-    }
+    }      
 }

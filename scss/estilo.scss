@@ -3,6 +3,9 @@
 @import "main";
 @import "footer";
 
+$coloruno: rgb(233, 213, 218);
+$colordos: rgb(77, 76, 125);
+
 @media (max-width: 400px){
     #logo{
         width: 50px;
@@ -21,3 +24,7 @@
     }
     
 }
+li{
+    list-style: none;
+  }
+
